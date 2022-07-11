@@ -13,7 +13,7 @@ DATE:     JULY 2022
 int main()
 {
     // variables declaration
-    float num1,num2,sum,difference,product,quotient;
+    float num1,num2,sum,difference,product,modulus;
 
     printf("calculator!\n");
     // input
@@ -30,6 +30,7 @@ int main()
     printf("%8.2f + %8.2f = %8.2f\n",num1,num2,sum);
     printf("%8.2f - %8.2f = %8.2f\n",num1,num2,difference);
     printf("%8.2f * %8.2f = %8.2f\n",num1,num2,product);
-    printf("%8.2f \ %8.2f = %8.2f\n",num1,num2,quotient);
+    printf("%8.2f \ %8.2f = %8.2f\n",num1,num2,modulus
+);
     return 0;
 }
